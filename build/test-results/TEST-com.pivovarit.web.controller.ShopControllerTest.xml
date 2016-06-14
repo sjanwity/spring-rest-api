@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pivovarit.web.controller.ShopControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-05-24T20:59:28" hostname="Schwit" time="0.073">
+  <properties/>
+  <testcase name="shouldNotFindNearest" classname="com.pivovarit.web.controller.ShopControllerTest" time="0.066"/>
+  <testcase name="shouldAddShop" classname="com.pivovarit.web.controller.ShopControllerTest" time="0.005"/>
+  <testcase name="shouldGetNearestShop" classname="com.pivovarit.web.controller.ShopControllerTest" time="0.001"/>
+  <testcase name="shouldReturnZeroShops" classname="com.pivovarit.web.controller.ShopControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.pivovarit.IntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.pivovarit.IntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.pivovarit.html">com.pivovarit</a> &gt; IntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.248s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldAddShopAndFetchCoordinates</td>
+<td>0.715s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldFindTheNearestShop</td>
+<td>0.151s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldFindTheNearestShopFromBoth</td>
+<td>0.382s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:59:22.674 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.pivovarit.IntegrationTest]
+21:59:22.677 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:59:22.682 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:59:22.692 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.pivovarit.IntegrationTest] from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
+21:59:22.704 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@6c20f6a3 declaringClass = 'com.pivovarit.IntegrationTest', classes = '{class com.pivovarit.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+21:59:22.710 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.pivovarit.IntegrationTest]: class path resource [com/pivovarit/IntegrationTest-context.xml] does not exist
+21:59:22.710 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.pivovarit.IntegrationTest]: class path resource [com/pivovarit/IntegrationTestContext.groovy] does not exist
+21:59:22.710 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.pivovarit.IntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:59:22.711 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pivovarit.IntegrationTest]
+21:59:22.714 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@4cb7b3ca testClass = IntegrationTest, locations = '{}', classes = '{class com.pivovarit.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@1bc14d43]
+21:59:22.715 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [com.pivovarit.IntegrationTest]: using defaults.
+21:59:22.720 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:59:22.726 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:59:22.729 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:59:22.730 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ad16758, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c88e943, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cea4b78, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5feaa911]
+21:59:22.732 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pivovarit.IntegrationTest]
+21:59:22.732 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pivovarit.IntegrationTest]
+21:59:22.733 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pivovarit.IntegrationTest]
+21:59:22.733 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pivovarit.IntegrationTest]
+21:59:22.734 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3fd8eb80 testClass = IntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4cb7b3ca testClass = IntegrationTest, locations = '{}', classes = '{class com.pivovarit.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.IntegrationTest=true}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+21:59:22.735 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pivovarit.IntegrationTest]
+21:59:22.735 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pivovarit.IntegrationTest]
+21:59:22.910 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3fd8eb80 testClass = IntegrationTest, testInstance = com.pivovarit.IntegrationTest@17eaf328, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4cb7b3ca testClass = IntegrationTest, locations = '{}', classes = '{class com.pivovarit.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.IntegrationTest=true}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+21:59:22.951 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:59:22.953 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:59:22.953 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:59:22.954 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-05-24 21:59:23.130  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Starting IntegrationTest on Schwit with PID 13588 (E:\workspace\spring-boot-demo-master\build\classes\test started by Windows 8 in E:\workspace\spring-boot-demo-master)
+2016-05-24 21:59:23.130  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : No active profile set, falling back to default profiles: default
+2016-05-24 21:59:23.158  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7716fcc: startup date [Tue May 24 21:59:23 BST 2016]; root of context hierarchy
+2016-05-24 21:59:24.285  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-05-24 21:59:24.297  INFO 13588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-24 21:59:24.298  INFO 13588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-24 21:59:24.372  INFO 13588 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-24 21:59:24.372  INFO 13588 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1216 ms
+2016-05-24 21:59:24.579  INFO 13588 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-24 21:59:24.583  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-24 21:59:24.583  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-24 21:59:24.583  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-24 21:59:24.583  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-24 21:59:24.925  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[POST]}&quot; onto public void com.pivovarit.web.controller.ShopController.save(com.pivovarit.web.dto.ShopDto)
+2016-05-24 21:59:24.926  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[GET]}&quot; onto public java.util.Set&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.findAll()
+2016-05-24 21:59:24.926  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/nearest],methods=[GET]}&quot; onto public java.util.Optional&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.getNearest(double,double)
+2016-05-24 21:59:24.926  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String com.pivovarit.web.controller.ShopController.foo()
+2016-05-24 21:59:24.927  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:24.929  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-05-24 21:59:24.930  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/ui]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-05-24 21:59:24.931  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/security]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-05-24 21:59:24.934  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:24.934  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-24 21:59:25.065  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7716fcc: startup date [Tue May 24 21:59:23 BST 2016]; root of context hierarchy
+2016-05-24 21:59:25.098  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:25.098  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:25.123  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:25.196  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-05-24 21:59:25.214  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-05-24 21:59:25.222  INFO 13588 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-05-24 21:59:25.424  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-05-24 21:59:25.428  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Started IntegrationTest in 2.471 seconds (JVM running for 3.143)
+2016-05-24 21:59:25.509  INFO 13588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-24 21:59:25.510  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-24 21:59:25.519  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2016-05-24 21:59:25.572  INFO 13588 --- [nio-8080-exec-1] com.google.maps.OkHttpRequestHandler     : Request: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDha91ip-w44DU9Xh8fDrSxr0zHOqXwDM0&amp;address=Redcross+Way+++SE1
+2016-05-24 21:59:26.082  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7716fcc: startup date [Tue May 24 21:59:23 BST 2016]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-05-24 21:59:26.175  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Starting IntegrationTest on Schwit with PID 13588 (E:\workspace\spring-boot-demo-master\build\classes\test started by Windows 8 in E:\workspace\spring-boot-demo-master)
+2016-05-24 21:59:26.175  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : No active profile set, falling back to default profiles: default
+2016-05-24 21:59:26.177  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d1395: startup date [Tue May 24 21:59:26 BST 2016]; root of context hierarchy
+2016-05-24 21:59:26.546  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-05-24 21:59:26.547  INFO 13588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-24 21:59:26.547  INFO 13588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-24 21:59:26.555  INFO 13588 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-24 21:59:26.555  INFO 13588 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 378 ms
+2016-05-24 21:59:26.668  INFO 13588 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-24 21:59:26.669  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-24 21:59:26.669  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-24 21:59:26.669  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-24 21:59:26.669  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-24 21:59:26.786  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[POST]}&quot; onto public void com.pivovarit.web.controller.ShopController.save(com.pivovarit.web.dto.ShopDto)
+2016-05-24 21:59:26.787  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[GET]}&quot; onto public java.util.Set&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.findAll()
+2016-05-24 21:59:26.787  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/nearest],methods=[GET]}&quot; onto public java.util.Optional&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.getNearest(double,double)
+2016-05-24 21:59:26.787  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String com.pivovarit.web.controller.ShopController.foo()
+2016-05-24 21:59:26.788  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:26.788  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-05-24 21:59:26.788  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/ui]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-05-24 21:59:26.789  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/security]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-05-24 21:59:26.790  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:26.790  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-24 21:59:26.842  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d1395: startup date [Tue May 24 21:59:26 BST 2016]; root of context hierarchy
+2016-05-24 21:59:26.856  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:26.856  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:26.873  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:26.915  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-05-24 21:59:26.916  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-05-24 21:59:26.917  INFO 13588 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-05-24 21:59:26.941  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-05-24 21:59:26.942  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Started IntegrationTest in 0.788 seconds (JVM running for 4.657)
+2016-05-24 21:59:26.949  INFO 13588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-24 21:59:26.949  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-24 21:59:26.960  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2016-05-24 21:59:26.963  INFO 13588 --- [nio-8080-exec-1] com.google.maps.OkHttpRequestHandler     : Request: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDha91ip-w44DU9Xh8fDrSxr0zHOqXwDM0&amp;address=Redcross+Way++SE1
+2016-05-24 21:59:27.053  INFO 13588 --- [nio-8080-exec-2] com.google.maps.OkHttpRequestHandler     : Request: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDha91ip-w44DU9Xh8fDrSxr0zHOqXwDM0&amp;address=Leslie+St++M3C
+2016-05-24 21:59:27.268  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d1395: startup date [Tue May 24 21:59:26 BST 2016]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-05-24 21:59:27.350  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Starting IntegrationTest on Schwit with PID 13588 (E:\workspace\spring-boot-demo-master\build\classes\test started by Windows 8 in E:\workspace\spring-boot-demo-master)
+2016-05-24 21:59:27.350  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : No active profile set, falling back to default profiles: default
+2016-05-24 21:59:27.352  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5201130f: startup date [Tue May 24 21:59:27 BST 2016]; root of context hierarchy
+2016-05-24 21:59:27.673  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-05-24 21:59:27.673  INFO 13588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-24 21:59:27.674  INFO 13588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-24 21:59:27.679  INFO 13588 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-24 21:59:27.679  INFO 13588 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 327 ms
+2016-05-24 21:59:27.775  INFO 13588 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-24 21:59:27.775  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-24 21:59:27.775  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-24 21:59:27.776  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-24 21:59:27.776  INFO 13588 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-24 21:59:27.868  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[POST]}&quot; onto public void com.pivovarit.web.controller.ShopController.save(com.pivovarit.web.dto.ShopDto)
+2016-05-24 21:59:27.868  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/shops],methods=[GET]}&quot; onto public java.util.Set&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.findAll()
+2016-05-24 21:59:27.868  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/nearest],methods=[GET]}&quot; onto public java.util.Optional&lt;com.pivovarit.web.dto.ShopWithCoordinatesDto&gt; com.pivovarit.web.controller.ShopController.getNearest(double,double)
+2016-05-24 21:59:27.868  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String com.pivovarit.web.controller.ShopController.foo()
+2016-05-24 21:59:27.869  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:27.869  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-05-24 21:59:27.870  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/ui]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-05-24 21:59:27.870  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/configuration/security]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-05-24 21:59:27.871  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-24 21:59:27.871  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-24 21:59:27.913  INFO 13588 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5201130f: startup date [Tue May 24 21:59:27 BST 2016]; root of context hierarchy
+2016-05-24 21:59:27.924  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:27.924  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:27.935  INFO 13588 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-24 21:59:27.967  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-05-24 21:59:27.968  INFO 13588 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-05-24 21:59:27.969  INFO 13588 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-05-24 21:59:27.988  INFO 13588 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-05-24 21:59:27.990  INFO 13588 --- [    Test worker] com.pivovarit.IntegrationTest            : Started IntegrationTest in 0.657 seconds (JVM running for 5.704)
+2016-05-24 21:59:27.995  INFO 13588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-24 21:59:27.995  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-24 21:59:28.001  INFO 13588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2016-05-24 21:59:28.005  INFO 13588 --- [nio-8080-exec-1] com.google.maps.OkHttpRequestHandler     : Request: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDha91ip-w44DU9Xh8fDrSxr0zHOqXwDM0&amp;address=Redcross+Way++SE1
+2016-05-24 21:59:28.086  INFO 13588 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5201130f: startup date [Tue May 24 21:59:27 BST 2016]; root of context hierarchy
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.13</a> at 24-May-2016 21:59:28</p>
+</div>
+</div>
+</body>
+</html>
